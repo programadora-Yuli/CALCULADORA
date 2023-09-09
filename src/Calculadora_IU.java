@@ -1,3 +1,6 @@
+
+import javax.swing.JOptionPane;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -110,6 +113,7 @@ public class Calculadora_IU extends javax.swing.JFrame {
         double nro1 = Double.parseDouble(txtNro1.getText());
         double nro2 = Double.parseDouble(txtNro2.getText());
         Double  suma = nro1+nro2;
+        JOptionPane.showMessageDialog(this, "La suma es :"+ suma );
     }//GEN-LAST:event_btnSumarActionPerformed
 
     /**
